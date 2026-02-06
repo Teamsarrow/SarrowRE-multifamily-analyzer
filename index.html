@@ -26,7 +26,7 @@
       const [closingCosts, setClosingCosts] = useState(null);
       const [capex, setCapex] = useState(0);
       const [loan, setLoan] = useState({downPaymentPct: 20, interestRate: 6.5});
-      const [expenses, setExpenses] = useState({propertyTaxPct: 1.25, insurance: 3500, managementFeePct: 3, utilities: 4000, maintenance: 5000});
+      const [expenses, setExpenses] = useState({propertyTaxPct: 1.25, insurance: 3500, managementFeePct: 3, utilities: 4000, maintenance: 1000});
       const [growth, setGrowth] = useState({rentIncrease: 3, expenseGrowth: 3});
       
       const addUnit = () => {setUnits([...units, {id: Date.now(), bedrooms: 1, bathrooms: 1, sqft: 600, monthlyRent: 1000, numUnits: 1}]);};
